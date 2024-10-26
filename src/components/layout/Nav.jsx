@@ -16,11 +16,13 @@ export default function Nav() {
 
   const handlePageClick = (pageKey, e) => {
     if (pageKey === "contact") {
-      e.preventDefault(); // Prevent default for scrolling
+      e.preventDefault();
+      toggleMenu();
       const footer = document.getElementById("footer");
       if (footer) footer.scrollIntoView({ behavior: "smooth" });
     } else if (pageKey === "about") {
-      e.preventDefault(); // Prevent default for scrolling
+      e.preventDefault();
+      toggleMenu();
       const aboutSection = document.getElementById("quiSommesNous");
       if (aboutSection) aboutSection.scrollIntoView({ behavior: "smooth" });
     } else {
@@ -39,7 +41,7 @@ export default function Nav() {
         <Icon icon={faBarsStaggered} className="text-[#4D4D4D] hover:text-gray-400" size="3x" />
       </button>
 
-      {isMenuOpen && <div className="fixed inset-0 bg-black opacity-50 z-10" onClick={toggleMenu} />}
+      {isMenuOpen && <div className="hidden phone:block fixed inset-0 bg-black opacity-50 z-10" onClick={toggleMenu} />}
 
       <div
         className={`w-full fixed top-0 right-0 bg-white shadow-lg transition-transform duration-300 ease-in-out phone:w-[50vw] phone:h-screen phone:overflow-y-auto z-20 ${

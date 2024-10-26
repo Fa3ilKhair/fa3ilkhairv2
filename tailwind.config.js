@@ -17,7 +17,9 @@ export default {
       },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
+        "loop-scroll-rtl": "loop-scroll-rtl 50s linear infinite",
         "loop-scroll-right": "loop-scroll-right 50s linear infinite",
+        "loop-scroll-right-rtl": "loop-scroll-right-rtl 50s linear infinite",
       },
       keyframes: {
         "loop-scroll": {

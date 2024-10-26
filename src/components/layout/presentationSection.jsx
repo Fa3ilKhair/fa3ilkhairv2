@@ -8,7 +8,7 @@ export default function PresentationSection() {
     <section className="p-24 py-32 mb-10 bg-white flex justify-center w-full gap-24" id="quiSommesNous">
       <div className="relative flex flex-col items-center rtl:justify-end lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
         <div className="w-full h-64 lg:w-[70%] lg:h-auto">
-          <img className="h-full w-full object-cover" src="/assets/media/groupImage.jpg" alt="Image representing our association's mission" />
+          <img className="h-full w-full object-cover" src="assets/media/groupImage.jpg" alt="Image representing our association's mission" />
         </div>
 
         <div className="bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:-top-8 md:mt-48 lg:w-3/5 lg:-left-72 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 rtl:top-5 rtl:left-100">
