@@ -50,5 +50,15 @@
   "stay_updated": "Restez à jour",
   "email_placeholder": "E-mail",
   "stay_informed": "Restez informé de nos nouvelles activités !",
-  "dont_miss_events": "Et ne manquez aucun événement !"
+  "dont_miss_events": "Et ne manquez aucun événement !",
+  "donate_modal_title": "Soutenez notre Mission par un Don",
+  "close": "Fermer",
+  "beneficiary_name": "Nom du bénéficiaire",
+  "transfer_object": "Objet du virement",
+  "iban": "IBAN du bénéficiaire",
+  "beneficiary_bank": "Banque du bénéficiaire",
+  "soon_add_card_payment": "Nous ajouterons bientôt l'option de paiement par carte pour simplifier le processus.",
+  "bank_transfer_fa3il_khair": "Un virement bancaire sur le compte ouvert chez l'initiative Fa3il Khair :",
+  "money_transfer_reason": "Pour soutenir des initiatives et des projets qui aident les personnes dans le besoin.",
+  "copied": "copié"
 }

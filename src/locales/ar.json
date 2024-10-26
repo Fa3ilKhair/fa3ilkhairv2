@@ -50,5 +50,15 @@
   "stay_updated": "ابق على اطلاع",
   "email_placeholder": "البريد الإلكتروني",
   "stay_informed": "ابقَ على اطلاع بآخر أنشطتنا!",
-  "dont_miss_events": "ولا تفوّت أي حدث!"
+  "dont_miss_events": "ولا تفوّت أي حدث!",
+  "donate_modal_title": "ادعم مهمتنا من خلال التبرع",
+  "close": "اغلاق",
+  "beneficiary_name": "اسم المستفيد",
+  "transfer_object": "موضوع التحويل",
+  "iban": "رقم IBAN للمستفيد",
+  "beneficiary_bank": "بنك المستفيد",
+  "soon_add_card_payment": "سنضيف قريباً خيار الدفع بالبطاقة لتبسيط العملية.",
+  "bank_transfer_fa3il_khair": "تحويل بنكي إلى الحساب المفتوح لدى مبادرة فعل خير:",
+  "money_transfer_reason": "لدعم المبادرات والمشاريع التي تساعد الأشخاص المحتاجين.",
+  "copied": "تم النسخ"
 }
