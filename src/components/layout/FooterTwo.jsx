@@ -81,8 +81,8 @@ export default function FooterTwo() {
           <FooterSection title={t("information")}>
             <ul className="flex flex-col gap-3 ps-4">
               <FooterLink content={t("home")} route="/Fa3ilKhair" color="text-white" />
-              <FooterLink content={t("projects")} route="/Fa3ilKhair/projets" color="text-white" />
-              <FooterLink content={t("gallery")} route="/Fa3ilKhair/galerie" color="text-white" />
+              <FooterLink content={t("projects")} route="/projets" color="text-white" />
+              <FooterLink content={t("gallery")} route="/galerie" color="text-white" />
               <FooterLink content={t("about")} route="/Fa3ilKhair" color="text-white" />
               <FooterLink content={t("donate")} route="/Fa3ilKhair" color="text-white" />
             </ul>

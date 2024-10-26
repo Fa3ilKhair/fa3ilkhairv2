@@ -5,7 +5,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative bg-[url(/Fa3ilKhair/assets/media/groupImage.jpg)] bg-cover bg-center bg-no-repeat lg:h-screen">
+    <section className="relative bg-[url(/assets/media/groupImage.jpg)] bg-cover bg-center bg-no-repeat lg:h-screen">
       <div className="absolute inset-0 bg-gradient-to-br rtl:bg-gradient-to-bl from-black/100 via-black/20 to-transparent"></div>
       <div className="relative mx-24 phone:mx-0 max-w-screen-xl phone:px-8 py-32 lg:flex lg:h-screen lg:items-center lg:px-0">
         <div className="text-center">
