@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 400; /* Regular */
+  src: url("../fonts/Fustat/Fustat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 300; /* ExtraLight */
+  src: url("../fonts/Fustat/Fustat-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 400; /* Light */
+  src: url("../fonts/Fustat/Fustat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 500; /* Medium */
+  src: url("../fonts/Fustat/Fustat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 600; /* SemiBold */
+  src: url("../fonts/Fustat/Fustat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 700; /* Bold */
+  src: url("../fonts/Fustat/Fustat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fustat";
+  font-weight: 800; /* ExtraBold */
+  src: url("../fonts/Fustat/Fustat-ExtraBold.ttf") format("truetype");
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.bar {
+  width: 40px;
+  height: 60px;
+  background-color: grey;
+  animation: loading 1s infinite;
+}
+.bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+@keyframes loading {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+}
