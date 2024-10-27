@@ -9,14 +9,14 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 function MainContent() {
   const location = useLocation();
 
-  const isNotFound = location.pathname !== "/" && location.pathname !== "/other-defined-path";
+  const isNotFound = location.pathname !== "/fa3ilkhairv2" && location.pathname !== "/other-defined-path";
 
   return (
     <>
       {!isNotFound && <Header />}
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/fa3ilkhairv2" element={<Index />} />
+        <Route path="/fa3ilkhairv2/*" element={<NotFoundPage />} />
       </Routes>
       {!isNotFound && <Footer />}
     </>

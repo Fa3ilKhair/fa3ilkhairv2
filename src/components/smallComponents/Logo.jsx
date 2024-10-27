@@ -4,7 +4,7 @@ export default function Logo({ taille }) {
   return (
     <>
       <Link to={"/"}>
-        <img className={`${taille}`} src="./assets/logos/logoGreenNoBg.png" alt="Logo.png" />
+        <img className={`${taille}`} src="/fa3ilkhairv2/assets/logos/logoGreenNoBg.png" alt="Logo.png" />
       </Link>
     </>
   );
