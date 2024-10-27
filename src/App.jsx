@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 function MainContent() {
   const location = useLocation();
 
-  const isNotFound = location.pathname !== "/fa3ilkhairv2" && !location.pathname.startsWith("/fa3ilkhairv2/");
+  const isNotFound = location.pathname !== "/fa3ilkhairv2";
   console.log(isNotFound);
 
   return (
