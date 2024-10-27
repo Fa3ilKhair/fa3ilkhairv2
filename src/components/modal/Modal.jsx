@@ -11,7 +11,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
       className="fixed top-0 right-0 left-0 z-50 flex items-center justify-center w-full h-full overflow-y-auto overflow-x-hidden bg-[#00000050]"
       aria-hidden="true"
     >
-      <div className="relative p-4 w-5/6 phone:w-[90%]">
+      <div className="relative p-4 w-1/2 phone:w-[90%]">
         {/* Modal content */}
         <div className="relative bg-white rounded-lg shadow-lg flex flex-col justify-between">
           {/* Modal header */}

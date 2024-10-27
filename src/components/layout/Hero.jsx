@@ -3,19 +3,13 @@ import Button from "../smallComponents/Button";
 import { useTranslation } from "react-i18next";
 import Modal from "../modal/Modal";
 import DonateModalContent from "../modal/DonateModalContent";
-
-const LearnMoreContent = () => (
-  <div>
-    <p>Découvrez notre travail et comment vous pouvez aider.</p>
-    {/* You can add more components or content here */}
-  </div>
-);
+import MoreModalContent from "../modal/MoreModalContent";
 
 export default function Hero() {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
-  const [modalContent, setModalContent] = useState(null); // Change to accept components
+  const [modalContent, setModalContent] = useState(null);
 
   const handleOpenModal = (title, content) => {
     setModalTitle(title);
@@ -47,16 +41,15 @@ export default function Hero() {
               <Button
                 content={t("learn_more")}
                 color="bg-transparent text-white border border-white hover:bg-white hover:text-[#4CAF50]"
-                onClick={() => handleOpenModal(t("learn_more_modal_title"), <LearnMoreContent />)}
+                onClick={() => handleOpenModal(t("about"), <MoreModalContent />)}
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Modal component */}
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} title={modalTitle}>
-        {modalContent} {/* Render the passed component */}
+        {modalContent}
       </Modal>
     </>
   );
