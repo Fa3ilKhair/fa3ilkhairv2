@@ -8,5 +8,5 @@ export default defineConfig({
     outDir: "build",
     assetsDir: "assets",
   },
-  base: "./",
+  base: "/fa3ilkhairv2/",
 });

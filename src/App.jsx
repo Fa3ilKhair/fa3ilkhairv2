@@ -28,6 +28,8 @@ export default function App() {
 
   useEffect(() => {
     document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+
+    document.title = i18n.language === "ar" ? "فاعل خير" : "Fa3il Khair";
   }, [i18n.language]);
 
   return (
