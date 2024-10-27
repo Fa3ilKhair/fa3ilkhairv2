@@ -10,6 +10,7 @@ function MainContent() {
   const location = useLocation();
 
   const isNotFound = location.pathname !== "/fa3ilkhairv2" && !location.pathname.startsWith("/fa3ilkhairv2/");
+  console.log(isNotFound);
 
   return (
     <>
