@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        phone: { max: "600px" },
+        phone: { max: "900px" },
         desktop: { min: "1280px" },
       },
       fontFamily: {
