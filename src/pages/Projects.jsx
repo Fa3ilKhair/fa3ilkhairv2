@@ -334,6 +334,253 @@ const Projects = () => {
       imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2555041.jpeg",
       title: "Mountain Refuge",
       content: "An image of a peaceful mountain refuge.",
+    },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2561283.jpeg", title: "Golden Beach", content: "An image of a golden beach." },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2563252.jpeg",
+      title: "Rural Landscape",
+      content: "An image of a beautiful rural landscape.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2576531.jpeg",
+      title: "Cascading Waterfall",
+      content: "An image of a cascading waterfall.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2576623.jpeg",
+      title: "Forest Pathway",
+      content: "An image of a peaceful forest pathway.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2578501.jpeg",
+      title: "Blooming Garden",
+      content: "An image of a blooming garden.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2581314.jpeg",
+      title: "Twilight Mountains",
+      content: "An image of twilight over the mountains.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582888.jpeg",
+      title: "Starry Night Sky",
+      content: "An image of a starry night sky.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582889.jpeg",
+      title: "Coastal Waves",
+      content: "An image of waves crashing on the coast.",
+    },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582890.jpeg", title: "Serene Marsh", content: "An image of a serene marshland." },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582891.jpeg",
+      title: "Colorful Rocks",
+      content: "An image of colorful rocks in nature.",
+    },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582892.jpeg", title: "Glistening Snow", content: "An image of glistening snow." },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582893.jpeg", title: "Breezy Meadow", content: "An image of a breezy meadow." },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582894.jpeg", title: "Tranquil River", content: "An image of a tranquil river." },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582895.jpeg",
+      title: "Desert Landscape",
+      content: "An image of a vast desert landscape.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582896.jpeg",
+      title: "Sunset at the Lake",
+      content: "An image of a sunset at the lake.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582897.jpeg",
+      title: "Lavender Fields",
+      content: "An image of beautiful lavender fields.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582898.jpeg",
+      title: "Evening Forest",
+      content: "An image of a tranquil evening forest.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582899.jpeg",
+      title: "Calm Horizon",
+      content: "An image of a calm horizon at sunset.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582900.jpeg",
+      title: "Morning Serenity",
+      content: "An image of a serene morning scene.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582901.jpeg",
+      title: "Whispering Pines",
+      content: "An image of whispering pines in a forest.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582902.jpeg",
+      title: "River Reflection",
+      content: "An image of a river reflecting the sky.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582903.jpeg",
+      title: "Serenity in Nature",
+      content: "An image capturing the essence of serenity in nature.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582904.jpeg",
+      title: "Mountain Range at Dusk",
+      content: "An image of a mountain range at dusk.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582905.jpeg",
+      title: "Beach Serenity",
+      content: "An image of serenity at the beach.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582906.jpeg",
+      title: "Cascading Spring",
+      content: "An image of a cascading spring in nature.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582907.jpeg",
+      title: "Autumn Glow",
+      content: "An image of autumn leaves glowing in the sunlight.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582908.jpeg",
+      title: "Quiet Lake",
+      content: "An image of a quiet lake surrounded by trees.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582909.jpeg",
+      title: "Blossoming Tree",
+      content: "An image of a blossoming tree in spring.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582910.jpeg",
+      title: "Nature’s Canvas",
+      content: "An image of nature’s beauty captured on canvas.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582911.jpeg",
+      title: "Lakeside Retreat",
+      content: "An image of a lakeside retreat in the forest.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582912.jpeg",
+      title: "Glowing Sunset",
+      content: "An image of a glowing sunset over the mountains.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582913.jpeg",
+      title: "Forest Serenity",
+      content: "An image of serenity in the forest.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582914.jpeg",
+      title: "Calm Oasis",
+      content: "An image of a calm oasis in the desert.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582915.jpeg",
+      title: "Starry Sky over Lake",
+      content: "An image of a starry sky reflected in a lake.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582916.jpeg",
+      title: "Desert Sunset",
+      content: "An image of a beautiful desert sunset.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582917.jpeg",
+      title: "Tranquil Lake at Dusk",
+      content: "An image of a tranquil lake at dusk.",
+    },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582918.jpeg", title: "Meadow at Dawn", content: "An image of a meadow at dawn." },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582919.jpeg",
+      title: "Winter Wonderland",
+      content: "An image of a winter wonderland scene.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582920.jpeg",
+      title: "Golden Meadow",
+      content: "An image of a golden meadow at sunset.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582921.jpeg",
+      title: "Spring Bloom",
+      content: "An image of flowers blooming in spring.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582922.jpeg",
+      title: "Ethereal Fog",
+      content: "An image of ethereal fog in the forest.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582923.jpeg",
+      title: "Soothing Waters",
+      content: "An image of soothing waters in nature.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582924.jpeg",
+      title: "Charming Cottage",
+      content: "An image of a charming cottage in the woods.",
+    },
+    { imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582925.jpeg", title: "Snowy Peaks", content: "An image of snowy mountain peaks." },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582926.jpeg",
+      title: "Quiet Stream",
+      content: "An image of a quiet stream in nature.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582927.jpeg",
+      title: "Vibrant Wildlife",
+      content: "An image of vibrant wildlife in its habitat.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582928.jpeg",
+      title: "Shimmering Waters",
+      content: "An image of shimmering waters in the sunlight.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582929.jpeg",
+      title: "Dawn at the Beach",
+      content: "An image of dawn at the beach.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582930.jpeg",
+      title: "Sunset Over Hills",
+      content: "An image of a sunset over rolling hills.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582931.jpeg",
+      title: "Moonlit Forest",
+      content: "An image of a forest illuminated by moonlight.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582932.jpeg",
+      title: "Blooming Spring",
+      content: "An image of nature in full bloom during spring.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582933.jpeg",
+      title: "Majestic Waterfall",
+      content: "An image of a majestic waterfall in nature.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582934.jpeg",
+      title: "Serene Sunrise",
+      content: "An image of a serene sunrise over a lake.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582935.jpeg",
+      title: "Peaceful Cove",
+      content: "An image of a peaceful cove in the ocean.",
+    },
+    {
+      imagePath: "/fa3ilkhairv2/assets/sample_assets/pexels-photo-2582936.jpeg",
+      title: "Glistening Dew",
+      content: "An image of glistening dew on grass.",
     }
   ];
 
