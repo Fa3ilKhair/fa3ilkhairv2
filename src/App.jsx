@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Galerie from "./pages/Galerie";
+import Projects from "./pages/Projects";
 
 export default function App() {
   const { t, i18n } = useTranslation();
@@ -18,7 +19,8 @@ export default function App() {
 
   const location = useLocation();
 
-  const isNotFound = location.pathname !== "/fa3ilkhairv2/" && location.pathname !== "/fa3ilkhairv2/gallery";
+  const isNotFound =
+    location.pathname !== "/fa3ilkhairv2/" && location.pathname !== "/fa3ilkhairv2/gallery" && location.pathname !== "/fa3ilkhairv2/projects";
   console.log(isNotFound);
   console.log(location.pathname);
 
@@ -28,6 +30,7 @@ export default function App() {
       <Routes>
         <Route path="/fa3ilkhairv2" element={<Index />} />
         <Route path="/fa3ilkhairv2/gallery" element={<Galerie />} />
+        <Route path="/fa3ilkhairv2/projects" element={<Projects />} />
         <Route path="/fa3ilkhairv2/*" element={<NotFoundPage />} />
       </Routes>
       {!isNotFound && <Footer />}
