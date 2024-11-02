@@ -64,11 +64,7 @@ export default function Nav() {
 
         {isMenuOpen && <div className="hidden phone:block fixed inset-0 bg-black opacity-50 z-10" onClick={toggleMenu} />}
 
-        <div
-          className={`w-full fixed top-0 right-0 bg-white shadow-lg transition-transform duration-300 ease-in-out phone:w-[50vw] phone:h-screen phone:overflow-y-auto z-20 ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          } hidden phone:block`}
-        >
+        <div className={`w-full fixed top-0 right-0 bg-white shadow-lg transition-transform duration-300 ease-in-out phone:w-[50vw] phone:h-screen phone:overflow-y-auto z-20 ${isMenuOpen ? "translate-x-0" : "translate-x-full"} hidden phone:block`}>
           <ul className="flex flex-col items-start gap-10 p-12">
             <div className="flex space-x-2">
               <button onClick={() => changeLanguage("fr")} className="px-2 py-1 border rounded hover:bg-gray-200">
@@ -80,21 +76,11 @@ export default function Nav() {
             </div>
             {["home", "projects", "gallery", "contact", "about"].map((pageKey) => (
               <li key={pageKey}>
-                <Tag
-                  content={t(pageKey)}
-                  route={`/${pageKey === "home" ? "fa3ilkhairv2/" : pageKey}`}
-                  color={`text-[#4D4D4D] decoration-[#4caf4f] decoration-4 ${activePage === pageKey ? "border-b-2 border-[#4caf4f]" : ""}`}
-                  onClick={(e) => handlePageClick(pageKey, e)}
-                />
+                <Tag content={t(pageKey)} route={`/${pageKey === "home" ? "fa3ilkhairv2/" : `fa3ilkhairv2/${pageKey}`}`} color={`text-[#4D4D4D] decoration-[#4caf4f] decoration-4 ${activePage === pageKey ? "border-b-2 border-[#4caf4f]" : ""}`} onClick={(e) => handlePageClick(pageKey, e)} />
               </li>
             ))}
             <li>
-              <Button
-                content={t("donate")}
-                color="bg-[#4caf4f]"
-                arrow={true}
-                onClick={() => handleOpenModal(t("donate_modal_title"), <DonateModalContent />)}
-              />
+              <Button content={t("donate")} color="bg-[#4caf4f]" arrow={true} onClick={() => handleOpenModal(t("donate_modal_title"), <DonateModalContent />)} />
             </li>
           </ul>
         </div>
@@ -103,21 +89,11 @@ export default function Nav() {
         <ul className="flex items-center gap-10 phone:hidden">
           {["home", "projects", "gallery", "contact", "about"].map((pageKey) => (
             <li key={pageKey}>
-              <Tag
-                content={t(pageKey)}
-                route={`/${pageKey === "home" ? "fa3ilkhairv2/" : pageKey}`}
-                color={`text-[#4D4D4D] decoration-[#4caf4f] decoration-4 ${activePage === pageKey ? "border-b-2 border-[#4caf4f]" : ""}`}
-                onClick={(e) => handlePageClick(pageKey, e)}
-              />
+              <Tag content={t(pageKey)} route={`/${pageKey === "home" ? "fa3ilkhairv2/" : `fa3ilkhairv2/${pageKey}`}`} color={`text-[#4D4D4D] decoration-[#4caf4f] decoration-4 ${activePage === pageKey ? "border-b-2 border-[#4caf4f]" : ""}`} onClick={(e) => handlePageClick(pageKey, e)} />
             </li>
           ))}
           <li>
-            <Button
-              content={t("donate")}
-              color="bg-[#4caf4f]"
-              arrow={true}
-              onClick={() => handleOpenModal(t("donate_modal_title"), <DonateModalContent />)}
-            />
+            <Button content={t("donate")} color="bg-[#4caf4f]" arrow={true} onClick={() => handleOpenModal(t("donate_modal_title"), <DonateModalContent />)} />
           </li>
           <div className="flex space-x-2">
             <button onClick={() => changeLanguage("fr")} className="px-2 py-1 border rounded hover:bg-gray-200">
